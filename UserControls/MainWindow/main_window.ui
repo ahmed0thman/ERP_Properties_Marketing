@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UC_Frames</class>
+ <widget class="QFrame" name="UC_Frames">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1260</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QListWidget" name="main_list">
+   <property name="geometry">
+    <rect>
+     <x>1040</x>
+     <y>0</y>
+     <width>221</width>
+     <height>632</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>simplified arabic</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>   العقارات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>imgs/building1.png</normalon>
+     </iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العروض</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/offer.png</normaloff>imgs/offer.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   البحث</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/search.png</normaloff>imgs/search.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الطلبات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/order-history.png</normaloff>imgs/order-history.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العملاء</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/man.png</normaloff>imgs/man.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الملاك</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/owner.png</normaloff>imgs/owner.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الموظفين</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/employee.png</normaloff>imgs/employee.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الإشعارات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/bell.png</normaloff>imgs/bell.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   التقارير العامه</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/report-icon-30.png</normaloff>imgs/report-icon-30.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العقود</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/contracts.png</normaloff>imgs/contracts.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الإداره</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/settings.png</normaloff>imgs/settings.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   إحصائيات الشركه</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/dashboard.png</normaloff>imgs/dashboard.png</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QFrame" name="panel">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>0</y>
+     <width>1031</width>
+     <height>860</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="main_list_2">
+   <property name="geometry">
+    <rect>
+     <x>2310</x>
+     <y>670</y>
+     <width>221</width>
+     <height>632</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>simplified arabic</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <item>
+    <property name="text">
+     <string>   العقارات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normalon>imgs/building1.png</normalon>
+     </iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العروض</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/offer.png</normaloff>imgs/offer.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   البحث</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/search.png</normaloff>imgs/search.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الطلبات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/order-history.png</normaloff>imgs/order-history.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العملاء</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/man.png</normaloff>imgs/man.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الملاك</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/owner.png</normaloff>imgs/owner.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الموظفين</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/employee.png</normaloff>imgs/employee.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الإشعارات</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/bell.png</normaloff>imgs/bell.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   التقارير العامه</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/report-icon-30.png</normaloff>imgs/report-icon-30.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   العقود</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/contracts.png</normaloff>imgs/contracts.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   الإداره</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/settings.png</normaloff>imgs/settings.png</iconset>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>   إحصائيات الشركه</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>imgs/dashboard.png</normaloff>imgs/dashboard.png</iconset>
+    </property>
+   </item>
+  </widget>
+  <widget class="QFrame" name="panel_2">
+   <property name="geometry">
+    <rect>
+     <x>1275</x>
+     <y>670</y>
+     <width>1031</width>
+     <height>800</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
